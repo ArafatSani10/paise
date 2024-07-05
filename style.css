@@ -1,0 +1,30 @@
+.parent{
+    background-color: antiquewhite;
+    padding: 25px;
+     
+    display: flex;
+   
+
+    align-items: center;
+    gap: 10px;
+    height: 350px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   
+    
+}
+.child{
+    border: 2px solid rgb(95, 95, 82);
+    background: rgb(173, 173, 46);
+    padding: 20px;
+    font-size: 28px;
+    margin: 10px 0;
+ 
+  
+   
+}
+.child:hover{
+    transition: all  0.9s ease;
+    background-color: #836b6b;
+}
